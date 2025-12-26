@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Inter, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import StoreProvider from "@/lib/redux/StoreProvider";
-import MeetingModal from "@/components/fix-meeting-form";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -32,8 +31,6 @@ export default function RootLayout({
       >
         <StoreProvider>
           {children}
-
-          <MeetingModal />
         </StoreProvider>
       </body>
     </html>

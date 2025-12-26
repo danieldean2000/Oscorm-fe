@@ -246,19 +246,19 @@ export default function Header() {
                         <NavigationMenu>
                             <NavigationMenuList>
                                 <NavigationMenuItem>
-                                    <Link href="#" legacyBehavior passHref>
-                                        <NavigationMenuLink className="px-4 py-2 text-sm font-medium hover:text-blue-600 transition-colors">
+                                    <NavigationMenuLink asChild>
+                                        <Link href="#" className="px-4 py-2 text-sm font-medium hover:text-blue-600 transition-colors">
                                             Why Oscorm
-                                        </NavigationMenuLink>
-                                    </Link>
+                                        </Link>
+                                    </NavigationMenuLink>
                                 </NavigationMenuItem>
 
                                 <NavigationMenuItem>
-                                    <Link href="/how-it-works" legacyBehavior passHref>
-                                        <NavigationMenuLink className="px-4 py-2 text-sm font-medium hover:text-blue-600 transition-colors">
+                                    <NavigationMenuLink asChild>
+                                        <Link href="/how-it-works" className="px-4 py-2 text-sm font-medium hover:text-blue-600 transition-colors">
                                             How it Works
-                                        </NavigationMenuLink>
-                                    </Link>
+                                        </Link>
+                                    </NavigationMenuLink>
                                 </NavigationMenuItem>
 
                                 {/* Services Megamenu */}
@@ -404,19 +404,19 @@ export default function Header() {
                                 </NavigationMenuItem>
 
                                 <NavigationMenuItem>
-                                    <Link href="/pricing" legacyBehavior passHref>
-                                        <NavigationMenuLink className="px-4 py-2 text-sm font-medium hover:text-blue-600 transition-colors">
+                                    <NavigationMenuLink asChild>
+                                        <Link href="/pricing" className="px-4 py-2 text-sm font-medium hover:text-blue-600 transition-colors">
                                             Pricing
-                                        </NavigationMenuLink>
-                                    </Link>
+                                        </Link>
+                                    </NavigationMenuLink>
                                 </NavigationMenuItem>
 
                                 <NavigationMenuItem>
-                                    <Link href="/resources" legacyBehavior passHref>
-                                        <NavigationMenuLink className="px-4 py-2 text-sm font-medium hover:text-blue-600 transition-colors">
+                                    <NavigationMenuLink asChild>
+                                        <Link href="/resources" className="px-4 py-2 text-sm font-medium hover:text-blue-600 transition-colors">
                                             Resources
-                                        </NavigationMenuLink>
-                                    </Link>
+                                        </Link>
+                                    </NavigationMenuLink>
                                 </NavigationMenuItem>
                             </NavigationMenuList>
                         </NavigationMenu>
